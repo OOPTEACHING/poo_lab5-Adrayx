@@ -20,13 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f234ba-b73f-414f-a210-298ae49e0008" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sah/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sah/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sah/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/Matrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Matrice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,8 +56,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.Main" />
+      <module name="POO_Lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sah.Main" />
       <module name="POO_Lab5" />
@@ -65,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,7 +118,7 @@
       <updated>1603963401492</updated>
       <workItem from="1603963407302" duration="191000" />
       <workItem from="1604219292780" duration="55000" />
-      <workItem from="1604226470391" duration="43000" />
+      <workItem from="1604226470391" duration="4204000" />
     </task>
     <servers />
   </component>
@@ -105,5 +141,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604219345719" />
+    <state width="912" height="269" key="GridCell.Tab.0.bottom" timestamp="1604231923120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="912" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604231923120" />
+    <state width="912" height="269" key="GridCell.Tab.0.center" timestamp="1604231923120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="912" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604231923120" />
+    <state width="912" height="269" key="GridCell.Tab.0.left" timestamp="1604231923120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="912" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604231923120" />
+    <state width="912" height="269" key="GridCell.Tab.0.right" timestamp="1604231923120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="912" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604231923120" />
   </component>
 </project>

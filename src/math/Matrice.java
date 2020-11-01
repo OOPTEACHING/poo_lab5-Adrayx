@@ -12,8 +12,7 @@ public class Matrice {
         for(int i = 0; i < rows; i++)
         {
             for(int j = 0; j < columns; j++) {
-                elements[i][j].setReal(0);
-                elements[i][j].setImaginary(0);
+                elements[i][j] = new Complex(0, 0);
             }
         }
     }
@@ -43,7 +42,7 @@ public class Matrice {
         for(int i = 0; i < rows; i++)
         {
             for(int j = 0; j < columns; j++)
-                elements[i][j] = complexNumbers[i * rows + j];
+                elements[i][j] = complexNumbers[i * columns+ j];
         }
     }
 
@@ -62,7 +61,7 @@ public class Matrice {
 
     public Matrice scadere(Matrice matrice2)
     {
-        Matrice rezultat = new Matrice(2, 2);
+        Matrice rezultat = new Matrice(this.rows, this.columns);
         for(int i = 0; i < this.rows; i++)
         {
             for(int j = 0; j < this.columns; j++)
@@ -125,7 +124,7 @@ public class Matrice {
         {
             for(int j = 0; j < columns; j++)
             {
-                System.out.print(elements[i][j] + " ");
+                System.out.print(elements[i][j].getReal() + " + " + elements[i][j].getImaginary() + "i ");
             }
             System.out.println();
         }
