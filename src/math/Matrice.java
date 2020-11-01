@@ -48,41 +48,41 @@ public class Matrice {
 
     public Matrice adunare(Matrice matrice2)
     {
-        Matrice rezultat = new Matrice(this.rows, this.columns);
+        Matrice result = new Matrice(this.rows, this.columns);
         for(int i = 0; i < this.rows; i++)
         {
             for(int j = 0; j < this.columns; j++)
             {
-                rezultat.elements[i][j] = this.elements[i][j].add(matrice2.elements[i][j]);
+                result.elements[i][j] = this.elements[i][j].add(matrice2.elements[i][j]);
             }
         }
-        return rezultat;
+        return result;
     }
 
     public Matrice scadere(Matrice matrice2)
     {
-        Matrice rezultat = new Matrice(this.rows, this.columns);
+        Matrice result = new Matrice(this.rows, this.columns);
         for(int i = 0; i < this.rows; i++)
         {
             for(int j = 0; j < this.columns; j++)
             {
-                rezultat.elements[i][j] = this.elements[i][j].subtract(matrice2.elements[i][j]);
+                result.elements[i][j] = this.elements[i][j].subtract(matrice2.elements[i][j]);
             }
         }
-        return rezultat;
+        return result;
     }
 
     public Matrice inmultireScalar(int scalar)
     {
-        Matrice rezultat = new Matrice(this.rows, this.columns);
+        Matrice result = new Matrice(this.rows, this.columns);
         for(int i = 0; i < this.rows; i++)
         {
             for(int j = 0; j < this.columns; j++)
             {
-                rezultat.elements[i][j] = this.elements[i][j].scalarMultiply(scalar);
+                result.elements[i][j] = this.elements[i][j].scalarMultiply(scalar);
             }
         }
-        return rezultat;
+        return result;
     }
 
     //Functia asta o s-o folosesc si la scadere, fiindca este aceeasi conditie
@@ -103,19 +103,19 @@ public class Matrice {
     public Matrice inmultireMatrici(Matrice matrice2)
     {
 
-        Matrice rezultat = new Matrice(this.rows, matrice2.columns);
-        for(int i = 0; i < rezultat.rows; i++)
+        Matrice result = new Matrice(this.rows, matrice2.columns);
+        for(int i = 0; i < result.rows; i++)
         {
-            for(int j = 0; j < rezultat.columns; j++)
+            for(int j = 0; j < result.columns; j++)
             {
                 for(int k = 0; k < this.columns; k++)
                 {
                     Complex c = this.elements[i][k].multiply(matrice2.elements[k][j]);
-                    rezultat.elements[i][j] = rezultat.elements[i][j].add(c);
+                    result.elements[i][j] = result.elements[i][j].add(c);
                 }
             }
         }
-        return rezultat;
+        return result;
     }
 
     public void afisareMatrice()

@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f234ba-b73f-414f-a210-298ae49e0008" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sah/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sah/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/math/Matrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Matrice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +110,7 @@
       <updated>1603963401492</updated>
       <workItem from="1603963407302" duration="191000" />
       <workItem from="1604219292780" duration="55000" />
-      <workItem from="1604226470391" duration="4204000" />
+      <workItem from="1604226470391" duration="4401000" />
     </task>
     <servers />
   </component>
